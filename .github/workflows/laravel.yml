@@ -41,7 +41,7 @@ jobs:
         source: "./*"
         target: /var/www/github-actions
       
-    - name: Setting apache2
+    - name: VPS command
       uses: appleboy/ssh-action@v1
       with:
         host: ${{ secrets.VPS_HOST }}
